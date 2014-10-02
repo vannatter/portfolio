@@ -1,0 +1,159 @@
+@import "variables.less";
+@import "mixins.less";
+
+
+* {
+	font-family: "museo-sans-condensed", sans-serif;
+	font-style: normal;
+	font-weight: 300;	
+	font-size: 16px;
+}
+
+a {
+	color: @core_black;
+	text-decoration: underline;
+}
+a:hover {
+	color: @core_black;	
+}
+
+body {
+	background-color: @core_bg;
+/* 	background-image: url(/img/bg.png); */
+	color: @core_black;
+}
+
+#content {
+	margin-top: 80px;
+}
+
+.name {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.subsection {
+	padding-left: 14px;
+}
+
+.me {
+	border: 6px solid @core_black;
+	background-color: @core_secondary;
+	float: right;
+	margin-top: -165px;
+	z-index: 1031;
+	position: relative;
+	margin-left: 15px;
+}
+
+.subsection h4 {
+	margin-left: -14px;
+}
+
+h4 {
+	border-left: 6px solid @core_secondary;	
+	padding-left: 6px;
+}
+
+h4, h4 a {
+	font-family: "museo-sans-condensed", sans-serif;
+	font-style: normal;
+	font-weight: 600;	
+	font-size: 22px;
+	color: @core_headline_color;
+	margin-top: 25px;
+	text-decoration: none;
+}
+h4 a:hover {
+	color: @core_headline_color;
+	text-decoration: none;
+}
+
+.resume_company {
+	margin: 20px 0 4px 0;
+	border-bottom: 1px solid @resume_border_color;	
+	clear: both;
+}
+
+.resume_date {
+	float: right;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;	
+	line-height: 28px;
+}
+
+.nav, .navbar-brand {
+	font-size: 18px;
+	font-family: "sneakers-script-ultra-wide",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.navbar-inverse .navbar-brand {
+	color: @core_secondary;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: @core_black;
+}
+
+.nav a {
+	text-decoration: none;
+}
+.nav>li>a:hover, .navbar-header a {
+	transition: all 0.5s ease;
+}
+
+.nav>li>a:hover, .navbar-header a:hover {
+	color: @core_secondary !important;
+	text-decoration: underline;
+}
+
+.nav_on {
+	color: @core_secondary !important;
+}
+
+.navbar-default {
+	background-color: transparent;
+	text-align: center;
+    margin: 20px auto 0 auto;
+    display: table;
+    border: none;
+}
+
+.navbar-header {
+	float: left;
+}
+
+#footer {
+	text-align: center;
+	margin: 450px 0 40px;
+	font-size: 10px;
+	font-family: "museo-sans-condensed", sans-serif;
+	font-style: normal;
+	font-weight: 300;	
+	color: @footer_color;
+}
+#footer a {
+	font-size: 10px;
+	color: @footer_color;
+	font-family: "museo-sans-condensed", sans-serif;
+	font-style: normal;
+	font-weight: 300;	
+}
+
+.dot {
+	width: 5px;
+	height: 5px;
+	background-color: @core_secondary;
+	content: '';
+}
+
+@import "media_min768max979.less";
+@import "media_max979.less";
+@import "media_max767.less";
+@import "media_max480.less";
+@import "media_min992.less";
+@import "media_min1200.less";
