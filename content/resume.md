@@ -17,7 +17,7 @@ My umbrella company for all freelance projects I have handled over the years. Sp
 Tools: PHP (5 & 4), CakePHP, Stripe, Twitter Bootstrap, Mustache/Handlebars, vTiger CRM, Eclipse (PDT), Aptana, CodeIgniter, Perl, ASP, ASP.NET, C#, Ruby, JSP, JavaScript, MySQL, PostgreSQL, SVN / Git / Mercurial, Amazon Cloud, Photoshop, Illustrator, Freehand, Flex, Python, AJAX, SOAP, LAMP, Basecamp, Agile (Rally/AgileZen), OpenBSD/CentOS Sys-admin
 
 
-<div class="resume_company"><b>LUNAR COW DESIGN</b> &nbsp;&nbsp;&nbsp; Senior Application Developer - Akron, Ohio <span class="resume_date">4/2014 – Current</span></div>
+<div class="resume_company"><b>LUNAR COW DESIGN</b> &nbsp;&nbsp;&nbsp; Director of Software Development - Akron, Ohio <span class="resume_date">4/2014 – Current</span></div>
 
 Responsible leading software development within digital services agency. Worked with developers and management to create solutions to bridge print and digital infrastructures as well as leading mobile application and responsive web development projects.
 
