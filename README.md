@@ -16,4 +16,4 @@ Contact me:
 - dustin@vannatter.com
 - http://linkedin.com/in/vannatter
 - http://twitter.com/dustinvannatter
-- http://dustin.io/
+- http://portfolio-dustin.vannatter.com/
